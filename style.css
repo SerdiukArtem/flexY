@@ -1,0 +1,138 @@
+@font-face {
+  font-family: Blooming Elegant Sans Bold;
+  src: url(font/Blooming\ Elegant\ Sans\ Bold.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Blooming Elegant Sans Bold;
+}
+
+.wrapper {
+  background: #E2E7EC;
+  width: 1600px;
+  height: 1400px;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+
+p {
+  color: #AEADA9FF;
+}
+
+.containet {
+  max-width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 737px;
+}
+
+.card_info {
+  position: absolute;
+  top: 200px;
+  color: #ffffff;
+  margin-left: 30px;
+}
+
+.card {
+  background: #ffffff;
+  width: 200px;
+  height: 300px;
+}
+
+.card_descr {
+  margin-top: 10px;
+}
+
+.card_descr p {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.card_descr h3 {
+  margin-left: 20px;
+}
+
+.card_girls {
+  background: #ffffff;
+  width: 200px;
+  height: 300px;
+}
+
+.guide {
+  margin-top: 10px;
+}
+
+.guide p {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.guide h3 {
+  margin-left: 20px;
+}
+
+.card_feet {
+  background: #ffffff;
+  width: 200px;
+  height: 300px;
+}
+
+.growth {
+  margin-top: 10px;
+}
+
+.growth h3 {
+  margin-top: 35px;
+  margin-left: 20px;
+}
+
+.card_car {
+  background: #ffffff;
+  width: 200px;
+  height: 300px;
+}
+
+.course {
+  margin-top: 10px;
+}
+
+.course p {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.course h3 {
+  margin-left: 20px;
+}
+
+.author {
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.loading {
+  padding-top: 30px;
+  padding-left: 250px;
+  text-transform: uppercase;
+}
+
+.loading i {
+  font-size: 18px;
+  animation: spin 3s linear infinite;
+}
+@keyframes spin {
+  0% {
+  transform: rotate(0deg);
+  }
+
+  100% {
+  transform: rotate(359deg);
+ }
+}
